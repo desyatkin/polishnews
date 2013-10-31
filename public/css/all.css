@@ -1,15 +1,809 @@
-.wrapper {
-	width: 970px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
+a {
+    color: #4a4a4a;
+    text-decoration: underline;
+}
 
-#searchblock  input.searchInput{
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+h1 {
+    margin: 5px 0px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #545454;
+    font-family: arial;
+    line-height: 120%;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 25px 0px 10px;
+    font-weight: normal;
+    color: #d93300;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px dotted #4a4a4a;
+    height: 2px;
+    clear: both;
+}
+
+p {
+    margin: 15px 0px 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Баннеры */
+.banner-top{
+    width:728px; 
+    height:90px; 
+    margin: 10px auto;
+}
+
+.banner-right{
+    width:300px; 
+    height:600px; 
+    margin: 0px auto;
+}
+
+/* основной блок, всё внутри него*/
+.wrapper {
+	width: 970px;
+    margin: 0 auto;
+}
+
+/* шапка */
+.header{
+    margin-top: 25px;
+}
+
+/* логотип */
+.logo{
+    width: 24%;
+    float: left;
+}
+
+/* элементы блока с курсами валют */
+.weather_left {
+    float: left;
+    margin-top: 6px;
+}
+
+.weather_left span{
+    line-height: 15px
+}
+
+/* элементы блока "погода" */
+.weather {
+    float: left;
+    margin-left: 60px;
+    font-size: 9px;
+}
+
+.weather_right {
+    float: left;
+    border-left: 1px solid #dddddd;
+    margin-top: 6px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.weather_bl {
+    float: left;
+}
+
+.gradus {
+    line-height: 25px
+}
+
+#weather1 {
+    margin: 0 4px;
+}
+
+/* блок полезных ссылок (яндекс, твиттер, rss, etc...) */
+.infoblock ul{
+    margin-top: 0;
+    margin-left: 20px;
+    padding-left: 0;
+    list-style-type: none;
+    float: left;
+    font-size: 9px;
+
+}
+
+.infoblock li{
+    line-height: 15px;
+    padding-left: 15px;
+}
+
+.infoblock a{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+#yandex {
+    background: url('/images/diz_elements/yandex.png')
+                left center no-repeat;
+}
+
+#informer {
+    background: url('/images/diz_elements/informer.jpg')
+                left center no-repeat;
+}
+
+#twit {
+    background: url('/images/diz_elements/t.jpg')
+                left center no-repeat;
+}
+
+#rss {
+    background: url('/images/diz_elements/rss.jpg')
+                left center no-repeat;
+}
+
+#info {
+    background: url('/images/diz_elements/info.jpg')
+                left center no-repeat;
+}
+
+#turistu{
+    background: url('/images/diz_elements/turistu.jpg')
+                left center no-repeat;
+}
+
+/* элементы блока "поиск по сайту" */
+.search{
+    width: 24%;
+    float: right;
+    margin-top: 20px;
+} 
+
+.searchInput{
 	margin:0;
+    float: left;
 	padding:2px 10px 2px 10px;
 	color:#000;
 	font-size:11px;
 	height:15px;
 	width:190px;
-	background:#e3e3e3 url('/images/site/main/search_bg.png') left center no-repeat;
+	background:#e3e3e3 url('/images/diz_elements/search_bg.png') left center no-repeat;
 	border:0;
+}
+.searchButton {
+    background: url('/images/diz_elements/search_button.png') left center no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 19px;
+    width: 19px;
+    border: 0;
+}
+
+.mainblock{
+    clear: both;
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 230px;
+}
+
+/* элементы блока с анонсами статей в шапке */
+.featured {
+    width: 483px;
+    padding-right: 250px;
+    position: relative;
+    height: 215px;
+    background: #FFFFFF;
+}
+
+.ui-tabs-nav {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 430px;
+}
+
+.ui-tabs-nav-item {
+    font-size: 12px;
+    color: #666;
+    display: block;
+    border-bottom: 1px dotted #4a4a4a;
+    margin-bottom: 8px;
+}
+
+.ui-tabs-nav .last {
+    font-size: 12px;
+    color: #666;
+    display: block;
+}
+
+.ui-tabs-nav li {
+    height: 75px;
+}
+
+.ui-tabs-nav li a{
+    line-height: 10px;
+    text-decoration: none;
+}
+.ui-tabs-nav li span{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #000;
+    display: block;
+}
+
+.ui-txt p {
+    font-family: tahoma;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.ui-txt span.date {
+    display: inline !important;
+    color: #000 !important;
+    font-size: 10px !important;
+    line-height: 16px;
+    padding: 0px;
+    font-weight: normal !important;
+}
+
+.ui-tabs-panel {
+    width: 273px;
+    height: 215px;
+    background: #999;
+    position: relative;
+}
+
+.mainblock .info {
+    position: absolute;
+    top: 0px;
+    left: 273px;
+    height: 215px;
+    width: 210px;
+}
+
+.mainblock .info p {
+    margin: 15px 15px 5px 15px;
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 15px;
+    color: #000;
+    word-spacing: 0.2em;
+}
+
+.mainblock .info a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000
+}
+
+.mainblock .info hr {
+    width: 180px;
+}
+
+.mainblock .info span.date {
+    color: #aaa9a9;
+    color: #000;
+    font-size: 10px;
+    padding: 0px 15px;
+    line-height: 16px;
+}
+
+.mainblock .info .readmore {
+    position: absolute;
+    left: -140px;
+    top: 226px;
+}
+
+.best {
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    height: 42px;
+    width: 42px;
+    background: url('/images/diz_elements/top_news.png');
+}
+
+.featured img {
+    float: left;
+    margin-right: 10px;
+}
+
+/* Верхнее меню */
+.menubar {
+    height: 35px;
+    background: url(/images/diz_elements/menu_bg.png) 
+                repeat-x;
+    margin-bottom: 20px;
+}
+
+ul.topmenu {
+    list-style-type: none;
+    margin: 20px 0;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+    color: #707070;
+}
+
+ul.topmenu li {
+    float: left;
+    line-height: 33px;
+    background: url(/images/diz_elements/menu_i.png) 
+                center right no-repeat;
+}
+
+ul.topmenu li.first a, ul.topmenu li.first span {
+    border-left: 1px solid #707070;
+}
+
+ul.topmenu li a, ul.topmenu li span {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0px 19px;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
+
+/* Блок "Видео Новости" на главной */
+.videonews {
+    position: relative;
+    z-index: 10;
+    width: 970px;
+    padding: 18px 0px 18px 20px;
+    margin: 0;
+}
+
+.video_news_img {
+    position: absolute;
+    width: 23px;
+    height: 158px;
+    left: 0;
+    top: 0;
+    background: url(/images/diz_elements/video_news.png)
+                top left no-repeat;
+}
+
+.videoblock {
+    position: relative;
+    float: left;
+    padding: 0 23px;
+    width: 422px;
+    border-right: 1px dotted #4b4b4b;
+}
+
+.videoblock img {
+    padding: 3px;
+    border: 1px solid #a9a9a9;
+    float: left;
+    margin-right: 15px;
+}
+
+.videoblock span.vid {
+    font-size: 12px;
+    margin: 10px 10px 10px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.videoblock span.vid a {
+    color: #323232;
+}
+
+.videoblock p {
+margin: 15px 0px 10px;
+font: 12px Tahoma, Geneva, sans-serif;
+color: #323232;
+}
+
+
+/* Ссылки сапы */
+.sape {
+    margin: 15px;
+    color: #323232;
+    height: 20px;
+    font-style: italic;
+}
+
+.sape a{
+    font-weight: bold;
+    color: #323232;
+}
+
+.sape h2{
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+
+/* Анонсы новостей по категориям (на главной)*/
+.news_block {
+    overflow: hidden;
+    width: 302px;
+    margin: 15px 10px 0 10px;
+    float: left;
+}
+
+.news_block span.date {
+    color: #000;
+    font-size: 11px;
+    padding: 0;
+    line-height: 12px;
+}
+
+.news_block span.vid {
+    font-size: 11px;
+    font-family: arial;
+    margin: 10px 0px 10px;
+    font-weight: bold;
+    padding-right: 10px;
+    color: #4a4a4a;
+    line-height: 14px;
+}
+
+.news_block span.vid a {
+    color: #4a4a4a;
+    word-wrap: break-word;
+}
+
+.news_block_h {
+    width: 302px;
+    height: 24px;
+    background: #aeaeae;
+    position: relative;
+}
+
+.news_block_h span a {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    color: #fff;
+    font-size: 11px;
+    font-family: arial;
+}
+
+.news_pre {
+    margin: 10px 0;
+    border-bottom: 1px dotted #0f4a85;
+    padding-bottom: 7px;
+    height: 110px;
+}
+
+.news_pre p{
+    margin: 0;
+}
+
+.news_pre img {
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.min_height {
+    height: 144px !important;
+    overflow: hidden;
+}
+
+.politics {
+    width: 134px;
+    height: 24px;
+    background: url(/images/diz_elements/cat1.png) center left no-repeat;
+}
+
+.economy {
+    width: 134px;
+    height: 24px;
+    background: url(/images/diz_elements/cat2.png) center left no-repeat;
+}
+
+.tourism {
+    width: 134px;
+    height: 24px;
+    background: url(/images/diz_elements/cat3.png) center left no-repeat;
+}
+
+.sport {
+    width: 134px;
+    height: 24px;
+    background: url(/images/diz_elements/cat4.png) center left no-repeat;
+}
+
+.culture {
+    width: 134px;
+    height: 24px;
+    background: url(/images/diz_elements/cat5.png) center left no-repeat;
+}
+
+.different {
+    width: 134px;
+    height: 24px;
+    background: url(/images/diz_elements/cat6.png) center left no-repeat;
+}
+
+/* Футер */
+.bottom_menubar {
+    height: 35px;
+    background: url(/images/diz_elements/menu_bg.png) repeat-x;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.bottom_menubar ul li {
+    list-style-type: none;
+    margin-left: 15px;
+    color: #fff;
+    float: left;
+    line-height: 16px;
+    padding-top: 8px;
+}
+
+.bottom_menubar a{
+    color: #fff;
+}
+
+.footer_txt {
+    float: left;
+    width: 710px;
+    font-family: arial;
+    font-size: 11px;
+}
+
+.footer_counters {
+    margin-top: 20px;
+    float: right;
+}
+
+/* Левая колонка внутренних страниц */
+.left {
+    float: left;
+    width: 635px;
+}
+
+.lastnews {
+    padding: 15px
+}
+/* (Левая колонка) Блоки анонсов статей в категориях */
+.news_item {
+    float: left;
+    padding: 0 5px;
+    margin: 7px 0;
+}
+
+.news_item img {
+    padding: 3px;
+    border: 1px solid #a9a9a9;
+    float: left;
+    margin-right: 15px;
+}
+
+.news_item span.vid {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.news_item p{
+    margin: 0;
+}
+
+.news_item p.date {
+    color: #000;
+    font-size: 11px;
+    padding: 0;
+    margin-top: 8px;
+    line-height: 11px;
+}
+
+.left .newsB {
+    padding: 10px 22px;
+    min-height: 320px;
+    word-spacing: 0.2em;
+    color: #595757;
+}
+
+.left .newsB img {
+    border: 1px solid #aeacac;
+    padding: 3px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.left .newsB hr{
+    margin: 6px 0;
+}
+
+.left .lastnews {
+    border-top: 1px dotted #0f4a85;
+    padding-top: 15px
+}
+
+/* Правая колонка внутренних страниц */
+.right {
+    float: right;
+    width: 314px;
+}
+/* (Правая колонка) самый верхний блок со случайной статьей */
+.right .mainNews_wrapper {
+    border: 1px solid #000;
+}
+
+.right .mainNews_wrapper .mainNews {
+    margin: 20px;
+}
+
+.right .mainNews_wrapper .mainNews .bl {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.right .mainNews_wrapper .mainNews .bl div {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    height: 42px;
+    width: 42px;
+    background: url(/images/diz_elements/top_news.png);
+}
+
+.right .mainNews_wrapper .mainNews .bl .readmore {
+    position: absolute;
+    font-family: arial;
+    top: 228px;
+    right: 0px;
+
+    font-weight: bold;
+}
+
+.right .mainNews_wrapper .mainNews .info p a {
+color: #000;
+font-weight: bold;
+line-height: 14px;
+text-decoration: none;
+word-spacing: 0.2em;
+}
+
+.right .mainNews_wrapper .mainNews .info .date {
+color: #000;
+font-size: 10px;
+display: block;
+margin: -5px 0 10px 0;
+}
+
+.right .mainNews_wrapper .mainNews .descr{
+    margin: 15px 0px 10px;
+}
+/* (Правая колонка) анонсы категории "ВидеоНовости" */
+.right .block_h {
+    width: 314px;
+    height: 24px;
+    background: #aeaeae;
+    margin: 20px 0;
+}
+
+.video_h {
+    width: 135px;
+    height: 24px;
+    background: url(/images/diz_elements/video_h.png) center left no-repeat;
+}
+
+.right .news_item div.vid {
+    font-size: 11px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+}
+/* (Правая колонка) Баннер сотмаркета */
+.b-sotmarket-banner .space_none {
+    padding: 0;
+    margin: 0;
+    }
+
+.b-sotmarket-banner {
+    width: 310px; /* здесь задается ширина баннера*/
+    position: relative; 
+    font: 13px/16px Arial, sans-serif;
+    }
+
+.b-sotmarket-banner-head {
+    height: 32px; 
+    background: url('/images/diz_elements/sotmarket/b-logo.png') 
+                50% 50% no-repeat #000;  /* #000 это дефолтный цвет баннера */
+    -webkit-border-radius: 7px 7px 0 0;
+    -moz-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0;
+    }
+
+.b-sotmarket-banner.mod_blue .b-sotmarket-banner-head{
+    background-color: #EE2C2C;
+    }
+/* b-sotmarket-banner-content */
+.b-sotmarket-banner-content {
+    border: 1px solid #c6c6c6;
+    padding: 15px 20px;
+    position: relative;
+    -webkit-border-radius: 0 0 7px 7px;
+    -moz-border-radius: 0 0 7px 7px;
+    border-radius: 0 0 7px 7px;
+    }
+.b-sotmarket-banner-product {
+    overflow: hidden;
+    display: block;
+    }
+.b-sotmarket-banner-product-image {
+    float: left;
+    padding-right: 10px;
+    border: none;
+    vertical-align: middle;
+    }
+.b-sotmarket-banner-product-text {
+    color: #2d5898;
+    text-decoration: underline;
+    min-width: 100px;
+    padding-top: 10px;
+    cursor: pointer;
+    display: table;
+    zoom:1;
+    }
+/* b-sotmarket-banner-main-link */
+.b-sotmarket-banner-main-link {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    opacity: 0;
+    }
+
+
+.popular_h {
+    width: 135px;
+    height: 24px;
+    background: url(/images/diz_elements/popular_h.png) 
+                center left no-repeat;
+}
+
+
+/* Пагинация */
+.pagination {
+    font-size: 14px;
+}
+
+.pagination a{
+    text-decoration: none;
+}
+
+.pagination ul li{
+    margin: 0 3px;
+    display: inline;
+}
+
+.pagination .active {
+    font-size: 15px;
+    font-weight: bold;
 }

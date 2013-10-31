@@ -77,7 +77,7 @@ Route::get('/{category}', 'SiteController@getShowCategory');
 //------------------------------------------------------------------------------
 // Подкатегории сайта
 //------------------------------------------------------------------------------
-Route::get('/{category}/{subcategory}', 'SiteController@getShowSubcategory');
+Route::get('/{category}/{subcategory}', 'SiteController@getShowCategory');
 
 
 //------------------------------------------------------------------------------

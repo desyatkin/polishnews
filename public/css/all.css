@@ -617,6 +617,7 @@ color: #323232;
 }
 
 .left .newsB {
+    background: #f4f3e5;
     padding: 10px 22px;
     min-height: 320px;
     word-spacing: 0.2em;
@@ -635,8 +636,8 @@ color: #323232;
     margin: 6px 0;
 }
 
-.left .lastnews {
-    border-top: 1px dotted #0f4a85;
+.left #lastnews {
+    background: #f4f3e5;
     padding-top: 15px
 }
 

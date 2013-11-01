@@ -637,8 +637,15 @@ color: #323232;
 }
 
 .left #lastnews {
-    background: #f4f3e5;
+    padding: 0 10px;
     padding-top: 15px
+}
+
+.greyBG {
+    border: none !important;
+    margin-top: 0px !important;
+    background: #f4f3e5;
+    padding: 15px !important;
 }
 
 /* Правая колонка внутренних страниц */
@@ -793,6 +800,7 @@ margin: -5px 0 10px 0;
 /* Пагинация */
 .pagination {
     font-size: 14px;
+    margin: 10px;
 }
 
 .pagination a{

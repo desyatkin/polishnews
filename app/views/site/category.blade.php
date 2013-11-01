@@ -8,7 +8,7 @@
 
 <div class="left">
     @include('helpers.sape')
-    <div id="lastnews">
+    <div id="lastnews" class = "greyBG">
         <h1>{{ $categoryName }}</h1>
         @foreach ($articles as $article)
         <div class="news_item">

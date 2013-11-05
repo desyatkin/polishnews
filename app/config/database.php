@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'polishnews',
 			'username'  => 'root',
-			'password'  => 'toor',
+			'password'  => 'root',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

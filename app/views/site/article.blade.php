@@ -12,7 +12,20 @@
         <h1>{{ $article[0]['article_name'] }}</h1>
         <hr>
         <span class="sp">{{ $article[0]['created_at'] }}</span> 
-        <span class="sp">Рубрика: <a href="{{ $url }}">{{ $categoryName }}</a></span> 
+        <span class="sp">Рубрика: <a href="{{ $url }}">{{ $categoryName }}</a></span>
+
+        {{-- Видео --}}
+        @if(!empty($article[0]['video']))
+        <div style="width:425px; margin:15px auto 0 auto;">
+            <object width="425" height="350">
+                <param name="movie" value="http://www.youtube.com/v/{{ $article[0]['video'] }}" />
+                </param>
+                <embed src="http://www.youtube.com/v/{{ $article[0]['video'] }}" type="application/x-shockwave-flash" width="425" height="350"></embed>
+            </object>
+        </div>
+        @endif
+
+
         <p>
             <img width="240" height="180" src="/{{ $article[0]['preview'] }}" alt="">
         </p>

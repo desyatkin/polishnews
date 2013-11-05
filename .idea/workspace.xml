@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc860ea6-4553-4f7d-9632-4171eee9c0fd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/site/test.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/polishnews_last.sql" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/sotmarket/b-logo.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/sotmarket/b-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dlinks/data/bd21" afterPath="$PROJECT_DIR$/public/dlinks/data/bd21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dlinks/data/bd22" afterPath="$PROJECT_DIR$/public/dlinks/data/bd22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dlinks/data/bd26" afterPath="$PROJECT_DIR$/public/dlinks/data/bd26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dlinks/data/bd27" afterPath="$PROJECT_DIR$/public/dlinks/data/bd27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/big_rain.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/big_rain.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/big_rain.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/big_rain.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/cat1.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/cat1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/cat2.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/cat2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/cat3.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/cat3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/cat4.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/cat4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/cat5.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/cat5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/cat6.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/cat6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/cat_i.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/cat_i.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/cloudy.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/cloudy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/cloudy.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/cloudy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/down.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/down.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/f.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/footer_bg.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/footer_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/galka.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/galka.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/sotmarket/img-product.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/sotmarket/img-product.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/info.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/info.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/informer.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/informer.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dlinks/data/keys.db" afterPath="$PROJECT_DIR$/public/dlinks/data/keys.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/little_cloudy.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/little_cloudy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/little_cloudy.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/little_cloudy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/logo.gif" afterPath="$PROJECT_DIR$/public/images/diz_elements/logo.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/logo.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/logo.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/menu_bg.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/menu_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/menu_bg_hover.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/menu_bg_hover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/menu_i.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/menu_i.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/next-horizontal.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/next-horizontal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/none.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/none.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/overcast.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/overcast.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/overcast.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/overcast.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/popular_h.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/popular_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/prev-horizontal.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/prev-horizontal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/print.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/print.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/rain.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/rain.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/rain.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/rain.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/round_input.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/round_input.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/round_textarea.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/round_textarea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/rss.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/rss.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/search_bg.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/search_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/search_button.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/search_button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/snow.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/snow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/snow.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/snow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/sun.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/sun.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/sunly.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/sunly.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/sunly.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/sunly.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/t.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/t.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/thunderstorm.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/thunderstorm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/thunderstorm.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/[���������]/thunderstorm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/top_news.gif" afterPath="$PROJECT_DIR$/public/images/diz_elements/top_news.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/top_news.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/top_news.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/turistu.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/turistu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/up.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/up.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/v.jpg" afterPath="$PROJECT_DIR$/public/images/diz_elements/v.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/video.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/video.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/video_h.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/video_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/video_news.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/video_news.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/video_news_bg.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/video_news_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/weather/weather.rar" afterPath="$PROJECT_DIR$/public/images/diz_elements/weather/weather.rar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/diz_elements/yandex.png" afterPath="$PROJECT_DIR$/public/images/diz_elements/yandex.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SiteController.php" afterPath="$PROJECT_DIR$/app/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all.css" afterPath="$PROJECT_DIR$/public/css/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/article.blade.php" afterPath="$PROJECT_DIR$/app/views/site/article.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/helpers/currency.php" afterPath="$PROJECT_DIR$/app/views/helpers/currency.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dlinks/data/lconfig.php" afterPath="$PROJECT_DIR$/public/dlinks/data/lconfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polishnews.sql" afterPath="$PROJECT_DIR$/polishnews.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/helpers/sotmarket.php" afterPath="$PROJECT_DIR$/app/views/helpers/sotmarket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/top.blade.php" afterPath="$PROJECT_DIR$/app/views/site/top.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/helpers/weather.php" afterPath="$PROJECT_DIR$/app/views/helpers/weather.php" />
+    </list>
+    <ignored path="polishnews.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="polishnews" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="weather.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/helpers/weather.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="57" selection-start="313" selection-end="313" vertical-scroll-proportion="0.16483517" vertical-offset="0" max-vertical-offset="1125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/site/top.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="47" selection-start="609" selection-end="609" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="795">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/helpers/currency.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="3" selection-end="3" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="645">
+              <folding>
+                <element signature="e#3#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency_parse.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/helpers/currency_parse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/app/views/site/test.php" />
+        <option value="$PROJECT_DIR$/app/views/site/article.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/all.css" />
+        <option value="$PROJECT_DIR$/app/views/helpers/currency.txt" />
+        <option value="$PROJECT_DIR$/app/views/site/top.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/helpers/currency_parse.php" />
+        <option value="$PROJECT_DIR$/app/views/helpers/weather_parse.php" />
+        <option value="$PROJECT_DIR$/currency_parse.php" />
+        <option value="$PROJECT_DIR$/app/views/helpers/currency.php" />
+        <option value="$PROJECT_DIR$/app/views/helpers/weather.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="809" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polishnews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc860ea6-4553-4f7d-9632-4171eee9c0fd" name="Default" comment="" />
+      <created>1383306140946</created>
+      <updated>1383306140946</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="809" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20444763" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913166" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/site/top_slider.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="673" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/top_articles.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="426" selection-end="452" vertical-scroll-proportion="0.27190334" vertical-offset="0" max-vertical-offset="662">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/article.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="922" selection-end="922" vertical-scroll-proportion="0.4471154" vertical-offset="96" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="18" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.5455975" vertical-offset="2638" max-vertical-offset="12345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="27" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="0" selection-start="4374" selection-end="4374" vertical-scroll-proportion="0.81946623" vertical-offset="813" max-vertical-offset="6825">
+          <folding>
+            <marker date="1383306674000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.44740972" vertical-offset="285" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/top.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="47" selection-start="609" selection-end="609" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/helpers/currency_parse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/helpers/currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="3" selection-end="3" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="645">
+          <folding>
+            <element signature="e#3#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/helpers/weather_parse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/helpers/weather.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="57" selection-start="313" selection-end="313" vertical-scroll-proportion="0.16483517" vertical-offset="0" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

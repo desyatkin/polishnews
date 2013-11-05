@@ -197,7 +197,7 @@ p {
     border: 1px solid #000;
     padding: 20px;
     margin-bottom: 20px;
-    height: 230px;
+    min-height: 240px;
 }
 
 /* элементы блока с анонсами статей в шапке */

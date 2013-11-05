@@ -1,0 +1,1 @@
+<span>$ 32,1808</span><br /><span>&euro; 43,6179</span>

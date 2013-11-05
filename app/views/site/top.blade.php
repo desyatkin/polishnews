@@ -2,7 +2,9 @@
 <div class="header">
     {{-- Лого --}}
     <div class="logo">
-        <img src="/images/logo.png">
+        <a href="/">
+            <img src="/images/logo.png">
+        </a>
     </div>
 
     {{-- Сегодняшняя дата, Курс доллара евро, Погода --}}
@@ -11,12 +13,12 @@
             @include('helpers.todate')
         </span><br />
         <div class="weather_left">
-            @include('helpers.currency')
+            @include('helpers.currency_parse')
         </div>
         <div class="weather_right">
             <span>Сейчас в Варшаве</span><br />
             <span class="gradus">
-                @include('helpers.weather')
+                @include('helpers.weather_parse')
             </span>
         </div>
     </div>

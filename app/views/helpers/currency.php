@@ -10,8 +10,11 @@ $date = date("d/m/Y");
 $codeUsd = 'R01235'; 
 $codeEur = 'R01239';
 
-echo '<span>$ '      . getCurrencyValue($codeUsd, $date) . '</span><br />';
-echo '<span>&euro; ' . getCurrencyValue($codeEur, $date) . '</span>';
+$html  = '<span>$ '      . getCurrencyValue($codeUsd, $date) . '</span><br />';
+$html .= '<span>&euro; ' . getCurrencyValue($codeEur, $date) . '</span>';
+
+
+file_put_contents(__DIR__.'/currency_parse.php', $html);
 
 /*
 |-------------------------------------------------------------------------------

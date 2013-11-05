@@ -87,6 +87,7 @@ class SiteController extends \BaseController {
     |-------------------------------------------------------------------------------
     */
     public function getShowIndex() {
+
         // Получаем 4 случайных статьи для блока в шапке
         $articles = $this->blockArticles(4);
 

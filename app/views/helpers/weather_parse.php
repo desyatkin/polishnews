@@ -1,0 +1,1 @@
+<div class="weather_bl">   <img id="weather1" alt="" src="/images/diz_elements/weather/overcast.png"></div>+8...+10 °C

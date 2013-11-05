@@ -511,4 +511,34 @@ class SiteController extends \BaseController {
         echo '</channel>
               </rss>';
     }
+
+
+    /*
+    |-------------------------------------------------------------------------------
+    | function generate sitemap
+    |-------------------------------------------------------------------------------
+    */
+    public function getSitemap() {
+
+        header("Content-Type:	application/xml");
+
+        // open xml document
+        echo '<?xml version="1.0" encoding="UTF-8"?>
+              <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.sitemaps.org/schemas/sitemap/0.9">';
+
+        $articles = Articles::all();
+
+        foreach($articles as $article) {
+            echo '<url>';
+
+            echo '<loc>'. $this->getArticleURL($article->id) .'</loc>';
+            echo '<priority>0.5</priority>';
+            echo '<lastmod>'. $article->updated_at .'</lastmod>';
+
+            echo '</url>';
+        }
+
+        //close xml document
+        echo '</urlset>';
+    }
 }

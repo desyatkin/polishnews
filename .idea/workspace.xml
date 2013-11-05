@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc860ea6-4553-4f7d-9632-4171eee9c0fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ArticlesController.php" afterPath="$PROJECT_DIR$/app/controllers/ArticlesController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SiteController.php" afterPath="$PROJECT_DIR$/app/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="polishnews.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,21 +30,23 @@
       <file leaf-file-name="SiteController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="494" column="35" selection-start="23092" selection-end="23092" vertical-scroll-proportion="0.41130298" vertical-offset="7148" max-vertical-offset="7785">
+            <state line="522" column="44" selection-start="24185" selection-end="24185" vertical-scroll-proportion="0.49519232" vertical-offset="7521" max-vertical-offset="8235">
               <folding>
-                <marker date="1383660830000" expanded="true" signature="18139:18169" placeholder="..." />
-                <marker date="1383660830000" expanded="true" signature="22607:23019" placeholder="..." />
-                <marker date="1383660830000" expanded="true" signature="22625:23019" placeholder="..." />
-                <marker date="1383660830000" expanded="true" signature="22823:23019" placeholder="..." />
+                <marker date="1383662558000" expanded="true" signature="18139:18169" placeholder="..." />
+                <marker date="1383662558000" expanded="true" signature="22607:23019" placeholder="..." />
+                <marker date="1383662558000" expanded="true" signature="22625:23019" placeholder="..." />
+                <marker date="1383662558000" expanded="true" signature="22823:23019" placeholder="..." />
+                <marker date="1383662558000" expanded="true" signature="24574:24786" placeholder="..." />
+                <marker date="1383662558000" expanded="true" signature="24574:24779" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Articles.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Articles.php">
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="68" column="56" selection-start="2255" selection-end="2255" vertical-scroll-proportion="-14.666667" vertical-offset="668" max-vertical-offset="1590">
               <folding />
             </state>
           </provider>
@@ -80,6 +81,7 @@
         <option value="$PROJECT_DIR$/app/views/helpers/currency.php" />
         <option value="$PROJECT_DIR$/app/views/helpers/weather.php" />
         <option value="$PROJECT_DIR$/app/controllers/ArticlesController.php" />
+        <option value="$PROJECT_DIR$/public/robots.txt" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/SiteController.php" />
       </list>
@@ -384,11 +386,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/site/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/site/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="25" selection-start="426" selection-end="452" vertical-scroll-proportion="0.27190334" vertical-offset="0" max-vertical-offset="662">
@@ -468,16 +465,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/ArticlesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="20" selection-start="2158" selection-end="2158" vertical-scroll-proportion="0.52904236" vertical-offset="638" max-vertical-offset="1545">
+        <state line="186" column="0" selection-start="4722" selection-end="4722" vertical-scroll-proportion="0.81161696" vertical-offset="2273" max-vertical-offset="2910">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ArticlesController.php">
+    <entry file="file://$PROJECT_DIR$/public/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="0" selection-start="4722" selection-end="4722" vertical-scroll-proportion="0.81161696" vertical-offset="2273" max-vertical-offset="2910">
+        <state line="21" column="19" selection-start="449" selection-end="449" vertical-scroll-proportion="0.47655067" vertical-offset="0" max-vertical-offset="661">
           <folding />
         </state>
       </provider>
@@ -489,14 +486,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="56" selection-start="2255" selection-end="2255" vertical-scroll-proportion="-14.666667" vertical-offset="668" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="494" column="35" selection-start="23092" selection-end="23092" vertical-scroll-proportion="0.41130298" vertical-offset="7148" max-vertical-offset="7785">
+        <state line="522" column="44" selection-start="24185" selection-end="24185" vertical-scroll-proportion="0.49519232" vertical-offset="7521" max-vertical-offset="8235">
           <folding>
-            <marker date="1383660830000" expanded="true" signature="18139:18169" placeholder="..." />
-            <marker date="1383660830000" expanded="true" signature="22607:23019" placeholder="..." />
-            <marker date="1383660830000" expanded="true" signature="22625:23019" placeholder="..." />
-            <marker date="1383660830000" expanded="true" signature="22823:23019" placeholder="..." />
+            <marker date="1383662558000" expanded="true" signature="18139:18169" placeholder="..." />
+            <marker date="1383662558000" expanded="true" signature="22607:23019" placeholder="..." />
+            <marker date="1383662558000" expanded="true" signature="22625:23019" placeholder="..." />
+            <marker date="1383662558000" expanded="true" signature="22823:23019" placeholder="..." />
+            <marker date="1383662558000" expanded="true" signature="24574:24786" placeholder="..." />
+            <marker date="1383662558000" expanded="true" signature="24574:24779" placeholder="..." />
           </folding>
         </state>
       </provider>

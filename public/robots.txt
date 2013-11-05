@@ -1,2 +1,24 @@
-User-agent: *
-Disallow: 
+User-agent: Googlebot
+Disallow: /redir/
+Disallow: /redirects/
+Disallow: /cp/
+Disallow: /pages/informer/
+Disallow: /pages/footer/
+Disallow: /printpage/
+Disallow: /rss.php
+Disallow: /service/poisk/
+Disallow: /cgi-bin/
+
+User-agent: Yandex
+Disallow: /redir/
+Disallow: /redirects/
+Disallow: /cp/
+Disallow: /pages/informer/
+Disallow: /pages/footer/
+Disallow: /printpage/
+Disallow: /rss.php
+Disallow: /service/poisk/
+Disallow: /cgi-bin/
+Host: polishnews.ru
+
+Sitemap: http://polishnews.ru/sitemap.xml

@@ -65,6 +65,9 @@ Route::get('/logout', function () {
 // RSS
 Route::get('/rss.php', 'SiteController@getRSS');
 
+// Sitemap
+Route::get('/sitemap.xml', 'SiteController@getSitemap');
+
 //------------------------------------------------------------------------------
 // Главная страница сайт
 //------------------------------------------------------------------------------

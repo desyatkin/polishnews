@@ -163,7 +163,7 @@ class ArticlesController extends \BaseController {
 	{
 		$article = Articles::find($id)->delete();
 
-		return Redirect::to('/admin/articles/');
+		return Redirect::back();
 	}
 
 	//------------------------------------------------------------------------------
@@ -184,5 +184,6 @@ class ArticlesController extends \BaseController {
 
 		return $result;
 	}
+
 
 }

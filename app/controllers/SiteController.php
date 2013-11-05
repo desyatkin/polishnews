@@ -447,4 +447,68 @@ class SiteController extends \BaseController {
 
         return $articles;
     }
+
+    /*
+    |-------------------------------------------------------------------------------
+    | Generate article url from id
+    |-------------------------------------------------------------------------------
+    */
+    public function getArticleURL ($id) {
+
+        //get article
+        $article = Articles::find($id);
+
+        // compose url
+        $url = 'http://polishnews.ru/' . $article->category->alias;
+        if( isset($article->subcategory->alias) ) $url .= '/'. $article->subcategory->alias;
+        $url .= '/'. $article->alias;
+
+        return $url;
+
+    }
+
+    /*
+    |-------------------------------------------------------------------------------
+    | RSS для яндекс новостей
+    |-------------------------------------------------------------------------------
+    */
+    public function getRSS() {
+
+        header("Content-Type:	application/rss+xml");
+
+
+        // description protocol, open xml document
+        echo '<?xml version="1.0" encoding="windows-1251"?>
+        <rss version="2.0" xmlns="http://backend.userland.com/rss2" xmlns:yandex="http://news.yandex.ru">
+        <channel>
+        <title>Polish News — новости Польши каждый день</title>
+        <link>http://polishnews.ru/</link>
+        <description>Актуальные новости и интересные статьи.</description>
+        <image>
+        <url>http://polishnews.ru/files/images/site/main/logo.gif</url>
+        <title>Polish News — новости Польши каждый день</title>
+        <link>http://polishnews.ru/</link>
+        </image>';
+
+
+        // get 20 last articles
+        $articles = Articles::orderBy('created_at', 'desc')->limit(20)->get();
+
+        foreach($articles as $article) {
+
+            echo '<item>';
+            echo '<title>'. $article->article_name .'</title>';
+            echo '<link>'. $this->getArticleURL($article->id) .'</link>';
+            echo '<category>Разное</category>';
+            echo '<enclosure url="http://polishnews.ru/userfiles/'. $article->preview .'" type="image/jpeg"/>';
+            echo '<pubDate>'. date( 'r', strtotime($article->created_at) ) .'</pubDate>';
+            echo '<yandex:genre>message</yandex:genre>';
+            echo '<yandex:full-text>'. htmlspecialchars(strip_tags($article->description)) .'</yandex:full-text>';
+            echo '</item>';
+        }
+
+        // close xml document
+        echo '</channel>
+              </rss>';
+    }
 }

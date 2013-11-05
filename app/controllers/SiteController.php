@@ -541,4 +541,16 @@ class SiteController extends \BaseController {
         //close xml document
         echo '</urlset>';
     }
+
+
+    /*
+    |-------------------------------------------------------------------------------
+    | function make redirect to other url
+    |-------------------------------------------------------------------------------
+    */
+    public function getRedirects() {
+        return Redirect::to( Input::get('url') );
+    }
+
+
 }

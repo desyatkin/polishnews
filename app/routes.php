@@ -68,6 +68,9 @@ Route::get('/rss.php', 'SiteController@getRSS');
 // Sitemap
 Route::get('/sitemap.xml', 'SiteController@getSitemap');
 
+// Redirects
+Route::get('redirects', 'SiteController@getRedirects');
+
 //------------------------------------------------------------------------------
 // Главная страница сайт
 //------------------------------------------------------------------------------

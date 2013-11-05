@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc860ea6-4553-4f7d-9632-4171eee9c0fd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SiteController.php" afterPath="$PROJECT_DIR$/app/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
     </list>
     <ignored path="polishnews.iws" />
@@ -30,14 +29,14 @@
       <file leaf-file-name="SiteController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="522" column="44" selection-start="24185" selection-end="24185" vertical-scroll-proportion="0.49519232" vertical-offset="7521" max-vertical-offset="8235">
+            <state line="551" column="44" selection-start="25171" selection-end="25171" vertical-scroll-proportion="0.75961536" vertical-offset="7791" max-vertical-offset="8415">
               <folding>
-                <marker date="1383662558000" expanded="true" signature="18139:18169" placeholder="..." />
-                <marker date="1383662558000" expanded="true" signature="22607:23019" placeholder="..." />
-                <marker date="1383662558000" expanded="true" signature="22625:23019" placeholder="..." />
-                <marker date="1383662558000" expanded="true" signature="22823:23019" placeholder="..." />
-                <marker date="1383662558000" expanded="true" signature="24574:24786" placeholder="..." />
-                <marker date="1383662558000" expanded="true" signature="24574:24779" placeholder="..." />
+                <marker date="1383663319000" expanded="true" signature="18139:18169" placeholder="..." />
+                <marker date="1383663319000" expanded="true" signature="22607:23019" placeholder="..." />
+                <marker date="1383663319000" expanded="true" signature="22625:23019" placeholder="..." />
+                <marker date="1383663319000" expanded="true" signature="22823:23019" placeholder="..." />
+                <marker date="1383663319000" expanded="true" signature="24574:24786" placeholder="..." />
+                <marker date="1383663319000" expanded="true" signature="24574:24779" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -46,7 +45,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="56" selection-start="2255" selection-end="2255" vertical-scroll-proportion="-14.666667" vertical-offset="668" max-vertical-offset="1590">
+            <state line="71" column="55" selection-start="2325" selection-end="2325" vertical-scroll-proportion="-16.541666" vertical-offset="668" max-vertical-offset="1635">
               <folding />
             </state>
           </provider>
@@ -488,21 +487,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="56" selection-start="2255" selection-end="2255" vertical-scroll-proportion="-14.666667" vertical-offset="668" max-vertical-offset="1590">
+        <state line="71" column="55" selection-start="2325" selection-end="2325" vertical-scroll-proportion="-16.541666" vertical-offset="668" max-vertical-offset="1635">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="522" column="44" selection-start="24185" selection-end="24185" vertical-scroll-proportion="0.49519232" vertical-offset="7521" max-vertical-offset="8235">
+        <state line="551" column="44" selection-start="25171" selection-end="25171" vertical-scroll-proportion="0.75961536" vertical-offset="7791" max-vertical-offset="8415">
           <folding>
-            <marker date="1383662558000" expanded="true" signature="18139:18169" placeholder="..." />
-            <marker date="1383662558000" expanded="true" signature="22607:23019" placeholder="..." />
-            <marker date="1383662558000" expanded="true" signature="22625:23019" placeholder="..." />
-            <marker date="1383662558000" expanded="true" signature="22823:23019" placeholder="..." />
-            <marker date="1383662558000" expanded="true" signature="24574:24786" placeholder="..." />
-            <marker date="1383662558000" expanded="true" signature="24574:24779" placeholder="..." />
+            <marker date="1383663319000" expanded="true" signature="18139:18169" placeholder="..." />
+            <marker date="1383663319000" expanded="true" signature="22607:23019" placeholder="..." />
+            <marker date="1383663319000" expanded="true" signature="22625:23019" placeholder="..." />
+            <marker date="1383663319000" expanded="true" signature="22823:23019" placeholder="..." />
+            <marker date="1383663319000" expanded="true" signature="24574:24786" placeholder="..." />
+            <marker date="1383663319000" expanded="true" signature="24574:24779" placeholder="..." />
           </folding>
         </state>
       </provider>

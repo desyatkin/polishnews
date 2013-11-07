@@ -93,11 +93,3 @@ Route::get('/{category}/{subcategory}', 'SiteController@getShowCategory');
 //  Конечная страница со статьей
 //------------------------------------------------------------------------------
 Route::get('/{category}/{subcategory}/{alias}', 'SiteController@getShowArticle');
-
-
-
-
-
-
-
-

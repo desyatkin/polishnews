@@ -478,14 +478,14 @@ class SiteController extends \BaseController {
 
 
         // description protocol, open xml document
-        echo '<?xml version="1.0" encoding="windows-1251"?>
+        echo '<?xml version="1.0" encoding="utf-8"?>
         <rss version="2.0" xmlns="http://backend.userland.com/rss2" xmlns:yandex="http://news.yandex.ru">
         <channel>
         <title>Polish News — новости Польши каждый день</title>
         <link>http://polishnews.ru/</link>
         <description>Актуальные новости и интересные статьи.</description>
         <image>
-        <url>http://polishnews.ru/files/images/site/main/logo.gif</url>
+        <url>http://polishnews.ru/images/diz_elements/logo.gif</url>
         <title>Polish News — новости Польши каждый день</title>
         <link>http://polishnews.ru/</link>
         </image>';

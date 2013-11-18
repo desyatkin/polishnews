@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc860ea6-4553-4f7d-9632-4171eee9c0fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SiteController.php" afterPath="$PROJECT_DIR$/app/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="polishnews.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,26 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SiteController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/SiteController.php">
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="551" column="44" selection-start="25171" selection-end="25171" vertical-scroll-proportion="0.75961536" vertical-offset="7791" max-vertical-offset="8415">
-              <folding>
-                <marker date="1383663319000" expanded="true" signature="18139:18169" placeholder="..." />
-                <marker date="1383663319000" expanded="true" signature="22607:23019" placeholder="..." />
-                <marker date="1383663319000" expanded="true" signature="22625:23019" placeholder="..." />
-                <marker date="1383663319000" expanded="true" signature="22823:23019" placeholder="..." />
-                <marker date="1383663319000" expanded="true" signature="24574:24786" placeholder="..." />
-                <marker date="1383663319000" expanded="true" signature="24574:24779" placeholder="..." />
-              </folding>
+            <state line="49" column="35" selection-start="1795" selection-end="1795" vertical-scroll-proportion="-11.083333" vertical-offset="469" max-vertical-offset="1560">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <file leaf-file-name="migration.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/migration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="55" selection-start="2325" selection-end="2325" vertical-scroll-proportion="-16.541666" vertical-offset="668" max-vertical-offset="1635">
+            <state line="52" column="268" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.78932583" vertical-offset="218" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -81,16 +75,17 @@
         <option value="$PROJECT_DIR$/app/views/helpers/weather.php" />
         <option value="$PROJECT_DIR$/app/controllers/ArticlesController.php" />
         <option value="$PROJECT_DIR$/public/robots.txt" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/public/migration.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="809" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -150,154 +145,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polishnews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -305,7 +152,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../polishnews.ru" />
+    <property name="last_opened_file_path" value="/opt/local/www/mysitecost/mysitecost.ru" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -350,20 +197,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="809" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20444763" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20731707" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -385,124 +232,101 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/site/main.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="426" selection-end="452" vertical-scroll-proportion="0.27190334" vertical-offset="0" max-vertical-offset="662">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/site/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/site/article.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="922" selection-end="922" vertical-scroll-proportion="0.4471154" vertical-offset="96" max-vertical-offset="1005">
-          <folding />
-        </state>
+        <state line="25" column="14" selection-start="922" selection-end="922" vertical-scroll-proportion="0.4471154" vertical-offset="96" max-vertical-offset="1005" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="18" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.5455975" vertical-offset="2638" max-vertical-offset="12345">
-          <folding />
-        </state>
+        <state line="199" column="18" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.5455975" vertical-offset="2638" max-vertical-offset="12345" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.44740972" vertical-offset="285" max-vertical-offset="1065">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.44740972" vertical-offset="285" max-vertical-offset="1065" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/helpers/weather_parse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637">
-          <folding />
-        </state>
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/helpers/weather.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="783" selection-end="783" vertical-scroll-proportion="0.40031397" vertical-offset="0" max-vertical-offset="1125">
-          <folding />
-        </state>
+        <state line="17" column="37" selection-start="783" selection-end="783" vertical-scroll-proportion="0.40031397" vertical-offset="0" max-vertical-offset="1125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/site/top.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="47" selection-start="609" selection-end="609" vertical-scroll-proportion="0.4709576" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="20" column="47" selection-start="609" selection-end="609" vertical-scroll-proportion="0.4709576" vertical-offset="0" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/helpers/currency.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="3" selection-end="3" vertical-scroll-proportion="0.02354788" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="e#3#221#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="1" column="0" selection-start="3" selection-end="3" vertical-scroll-proportion="0.02354788" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/helpers/currency_parse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637">
-          <folding />
-        </state>
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0832025" vertical-offset="690" max-vertical-offset="2895">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0832025" vertical-offset="690" max-vertical-offset="2895" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ArticlesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="0" selection-start="4722" selection-end="4722" vertical-scroll-proportion="0.81161696" vertical-offset="2273" max-vertical-offset="2910">
-          <folding />
-        </state>
+        <state line="186" column="0" selection-start="4722" selection-end="4722" vertical-scroll-proportion="0.81161696" vertical-offset="2273" max-vertical-offset="2910" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="449" selection-end="449" vertical-scroll-proportion="0.47655067" vertical-offset="0" max-vertical-offset="661">
-          <folding />
-        </state>
+        <state line="21" column="19" selection-start="449" selection-end="449" vertical-scroll-proportion="0.47655067" vertical-offset="0" max-vertical-offset="661" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Articles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="661">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="661" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="551" column="44" selection-start="25161" selection-end="25161" vertical-scroll-proportion="2.0067842" vertical-offset="6786" max-vertical-offset="8415">
+          <folding>
+            <marker date="1383828252000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1383828252000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383828252000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383828252000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383828252000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383828252000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383828252000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383828252000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383828252000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="27" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.36" vertical-offset="780" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="55" selection-start="2325" selection-end="2325" vertical-scroll-proportion="-16.541666" vertical-offset="668" max-vertical-offset="1635">
+        <state line="49" column="35" selection-start="1795" selection-end="1795" vertical-scroll-proportion="-11.083333" vertical-offset="469" max-vertical-offset="1560">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SiteController.php">
+    <entry file="file://$PROJECT_DIR$/public/migration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="551" column="44" selection-start="25171" selection-end="25171" vertical-scroll-proportion="0.75961536" vertical-offset="7791" max-vertical-offset="8415">
-          <folding>
-            <marker date="1383663319000" expanded="true" signature="18139:18169" placeholder="..." />
-            <marker date="1383663319000" expanded="true" signature="22607:23019" placeholder="..." />
-            <marker date="1383663319000" expanded="true" signature="22625:23019" placeholder="..." />
-            <marker date="1383663319000" expanded="true" signature="22823:23019" placeholder="..." />
-            <marker date="1383663319000" expanded="true" signature="24574:24786" placeholder="..." />
-            <marker date="1383663319000" expanded="true" signature="24574:24779" placeholder="..." />
-          </folding>
+        <state line="52" column="268" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.78932583" vertical-offset="218" max-vertical-offset="1005">
+          <folding />
         </state>
       </provider>
     </entry>

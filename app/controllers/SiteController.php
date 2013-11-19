@@ -63,7 +63,6 @@
 |-------------------------------------------------------------------------------
 */
 class SiteController extends \BaseController {
-
     //------------------------------------------------------------------------------
     // Основные методы
     //------------------------------------------------------------------------------
@@ -160,12 +159,14 @@ class SiteController extends \BaseController {
     |-------------------------------------------------------------------------------
     */
     public function getShowCategory($category, $subcategory = false) {
+
         // ишем в базе корневую категорию по её псевдониму (alias)
         $categoryArray = Categories::select('id', 'category_name')
                                    ->where('alias', '=', $category)
                                    ->where('parent_id', '=', 0)
                                    ->get()
                                    ->toArray();
+
 
         // если категории нет -> 404
         if (empty($categoryArray)) 
@@ -265,7 +266,7 @@ class SiteController extends \BaseController {
     |                           из заданной категории
     |-------------------------------------------------------------------------------
     */
-    public function getShowArticle($category, $subcategory, $alias) {
+    public function getShowArticle($category, $subcategory, $alias) {  
         // ишем в базе корневую категорию по её псевдониму (alias)
         $categoryArray = Categories::select('id', 'category_name')
                                    ->where('alias', '=', $category)
@@ -311,6 +312,7 @@ class SiteController extends \BaseController {
                            ->get()
                            ->toArray();
 
+        
         // если статьи нет -> 404
         if (empty($article)) 
             $this->error404();

@@ -38,10 +38,5 @@
     </div>
 
     {{-- Поиск --}}
-    <div class="search">
-        <form id="search" action="/service/poisk/" method="get">
-            <input type="text" name="search" class="searchInput" size="25" placeholder="Поиск">
-            <input type="submit" name="addComments" value="" class="searchButton" />
-        </form>
-    </div>
+    
 </div>

@@ -27,7 +27,9 @@
 
 
         <p>
+        @if(!empty($article[0]['preview']))
             <img width="240" height="180" src="/{{ $article[0]['preview'] }}" alt="">
+        @endif
         </p>
         
         {{ $article[0]['content'] }}
